@@ -1,36 +1,27 @@
 <template>
-    <div class="homepage">
+    <div class="gallery-page">
         <Header/>
-        <Carousel/>
-        <Countdown/>
-        <Options/>
-        <Gallery/>
+        <Albums/>
         <Book/>
         <Footer/>
     </div>
 </template>
 <script>
-import Carousel from '../core/Carousel'
+import Albums from '../core/Albums'
 import Header from '../core/Header'
-import Countdown from '../core/Countdown'
-import Options from '../core/Options'
 import Book from '../core/Book'
 import Footer from '../core/Footer'
-import Gallery from '../core/Gallery'
 export default {
     components:{
         Header,
-        Carousel,
-        Countdown,
-        Options,
         Book,
         Footer,
-        Gallery
+        Albums
     }
 }
 </script>
-<style>
-.homepage{
+<style >
+.gallery-page{
     max-width: 1150px;
     margin-left: auto;
     margin-right: auto;

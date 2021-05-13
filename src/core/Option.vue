@@ -63,7 +63,8 @@ export default {
     flex-direction: column;
 }
 .option-info h3{
-    background-color: white;
+    background-color: black;
+    color:white;
     border:1px solid black;
 }
 .option-info p{
@@ -71,11 +72,12 @@ export default {
 }
 .option-opentime{
     position: absolute;
-    top:20vh;
+    top:23vh;
 }
 .option-opentime p{
     font-size: larger;
-    color:white;
+    color:black;
+    font-weight: 500;
 }
 .option-headline{
     position: absolute;

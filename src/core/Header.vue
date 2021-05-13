@@ -11,7 +11,7 @@
                 <a class="ant-dropdown-link" @click="e => e.preventDefault()">
                 RESTAURANTS & BARS
                 </a>
-                <a-menu slot="overlay">
+                <a-menu class="menu" slot="overlay">
                     <a-menu-item key="0">
                         <a  rel="noopener noreferrer" href="#">ALL RESTAURANTS $ BARS</a>
                     </a-menu-item>
@@ -35,7 +35,7 @@
                 <a class="ant-dropdown-link" @click="e => e.preventDefault()">
                 PRIVATE DINING & EVENTS
                 </a>
-                <a-menu slot="overlay">
+                <a-menu class="menu" slot="overlay">
                     <a-menu-item key="0">
                         <a  rel="noopener noreferrer" href="#">CHEF'S TABLE</a>
                     </a-menu-item>
@@ -54,7 +54,7 @@
                 <a class="ant-dropdown-link" @click="e => e.preventDefault()">
                 WHAT'S ON
                 </a>
-                <a-menu class="ant-dropdown-item" slot="overlay">
+                <a-menu class="menu"  slot="overlay">
                     <a-menu-item key="0">
                         <a  rel="noopener noreferrer" href="#">OUTDOORS TERRACES</a>
                     </a-menu-item>
@@ -82,7 +82,7 @@
                 <a class="ant-dropdown-link" @click="e => e.preventDefault()">
                 AT HOME KITS
                 </a>
-                <a-menu slot="overlay">
+                <a-menu class="menu" slot="overlay">
                     <a-menu-item key="0">
                         <a  rel="noopener noreferrer" href="#">BEEF WELLINGTON</a>
                     </a-menu-item>
@@ -92,7 +92,7 @@
                 <a class="ant-dropdown-link" @click="e => e.preventDefault()">
                 CAREERS
                 </a>
-                <a-menu slot="overlay">
+                <a-menu class="menu" slot="overlay">
                     <a-menu-item key="0">
                         <a  rel="noopener noreferrer" href="#">ABOUT</a>
                     </a-menu-item>
@@ -105,7 +105,7 @@
                 <a class="ant-dropdown-link" @click="e => e.preventDefault()">
                 THE GRAPEVINE
                 </a>
-                <a-menu slot="overlay">
+                <a-menu class="menu" slot="overlay">
                     <a-menu-item key="0">
                         <a  rel="noopener noreferrer" href="#">RECIPES</a>
                     </a-menu-item>
@@ -185,6 +185,6 @@ export default {
     color:red;
 }
 .menu{
-    background-color: rebeccapurple;
+    background-color: gray;
 }
 </style>

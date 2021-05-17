@@ -3,6 +3,7 @@
         <Header/>
         <Carousel/>
         <Countdown/>
+        <GoogleMaps/>
         <Options/>
         <Gallery/>
         <Book/>
@@ -17,6 +18,7 @@ import Options from '../core/Options'
 import Book from '../core/Book'
 import Footer from '../core/Footer'
 import Gallery from '../core/Gallery'
+import GoogleMaps from '../core/GoogleMaps'
 export default {
     components:{
         Header,
@@ -25,7 +27,8 @@ export default {
         Options,
         Book,
         Footer,
-        Gallery
+        Gallery,
+        GoogleMaps
     }
 }
 </script>

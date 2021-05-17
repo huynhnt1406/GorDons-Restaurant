@@ -14,7 +14,7 @@
 export default {
   data() {
     return {
-      deadline: "17 May 2021"
+      deadline: "20 May 2021"
     };
   },
   methods: {

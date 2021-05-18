@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div class="header-left">
-            <h1>GORDON RAMSAY RESTAURANTS</h1>
+            <router-link to="/"><h1>GORDON RAMSAY RESTAURANTS</h1></router-link>
         </div>
         <div class="header-right">
              <a  class="ant-dropdown-link" @click="e => e.preventDefault()">
@@ -121,21 +121,22 @@
                 </a-menu>
             </a-dropdown>
              <a-dropdown>
-                <a  class="ant-dropdown-link" @click="e => e.preventDefault()">
-                GIFTS
-                </a>
+                <router-link to="/menu" class="single-link"  @click="e => e.preventDefault()">MENU</router-link>
                 <a-menu class="menu" slot="overlay">
                     <a-menu-item key="0">
-                        <a class="ant-dropdown-item" rel="noopener noreferrer" href="#">MICHELIN STAR</a>
+                       <router-link to="/menu/seafood"><a class="noopener noreferrer" rel="noopener noreferrer" href="#">SEAFOOD</a></router-link> 
                     </a-menu-item>
                      <a-menu-item key="1">
-                        <a  rel="noopener noreferrer" href="#">LUXURY GIFTS</a>
+                         <router-link to="/menu/chicken"><a  rel="noopener noreferrer" href="#">CHICKEN</a></router-link>
                     </a-menu-item>
                      <a-menu-item key="2">
-                        <a  rel="noopener noreferrer" href="#">MASTERCLASSES</a>
+                         <router-link to="/menu/beef"><a  rel="noopener noreferrer" href="#">BEEF</a></router-link>
                     </a-menu-item>
                      <a-menu-item key="3">
-                        <a  rel="noopener noreferrer" href="#">CORPORATE GIFTS</a>
+                         <router-link to="/menu/pork"><a  rel="noopener noreferrer" href="#">PORK</a></router-link>
+                    </a-menu-item>
+                    <a-menu-item key="4">
+                         <router-link to="/menu/dessert"><a  rel="noopener noreferrer" href="#">DESSERT</a></router-link>
                     </a-menu-item>
                 </a-menu>
             </a-dropdown>
@@ -177,6 +178,13 @@ export default {
     color:white;
     padding:15px;
 }
+.single-link{
+    color:black;
+    background-color: black;
+    border-left: 1px solid white;
+    color:white;
+    padding:15px;
+}
 .header-right{
     display: flex;
     flex-wrap: wrap;
@@ -187,4 +195,5 @@ export default {
 .menu{
     background-color: gray;
 }
+
 </style>

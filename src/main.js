@@ -9,7 +9,7 @@ Vue.config.productionTip = false
 Vue.use(Antd);
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'API_KEY',
+    key: 'AIzaSyDFBbC8Q4Z4Uuqc5L3BGUTrHxaI301NmZg',
   },
 })
 new Vue({

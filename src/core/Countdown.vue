@@ -2,11 +2,11 @@
     <div class="countdown-size">
         <div class="countdown">
             <a-row :gutter="16">
-                <a-col  style="margin-top: 32px;">
-                <a-statistic-countdown  :value="deadline" format="D ngày H giờ  m  phút  s giây " />
+                <a-col  style="margin-top: 32px;color:white">
+                <a-statistic-countdown   :value="deadline" format="D ngày H giờ  m  phút  s giây " />
                 </a-col>
             </a-row>
-            <h1>COUNTDOWN TO 17 MAY!</h1>
+            <h1>COUNTDOWN TO 20 MAY!</h1>
         </div>
     </div>
 </template>
@@ -36,7 +36,7 @@ export default {
     color:black;
 }
 .countdown-size{
-    background-image: linear-gradient(gray, white);
+    background-color: white;
     box-shadow: 0 1px 1px rgba(0,0,0,.5);
     max-width: 1150px;
     margin-left: auto;
